@@ -1,3 +1,5 @@
+/* webpage layout */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -34,27 +36,36 @@
 .dashboard {
     display: grid;
     grid-column: 1/2;
-    background-color: lightblue;
+    background-color: rgb(1, 138, 184);
     grid-template-rows: 1.3fr 5fr 7fr;
 }
 
-.dashboard-logo-title {
-    background-color: yellow;
+#dashboard-logo-title {
+    padding: 25px 30px;
 }
 
-.first-list {
-    background-color: purple;
+#dashboard-logo {
+    font-size: 35px;
 }
 
-.second-list {
-    background-color: green;
+#dashboard-title {
+    font-size: 30px;
 }
 
-.dashboard-logo {
+.symbol-text {
     color: white;
-    background-color: green;
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 20px;
 }
 
-.dashboard-title {
-    background-color: purple;
+.list {
+    display: grid;
+    grid-template-rows: repeat(6, max-content);
+    gap: 20px;
+    padding: 40px;
+    font-size: 20px;
 }
