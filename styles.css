@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 100%;
+}
+
+.header {
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.content {
+    background-color: lightgray;
+    grid-column: 1/2;
+}
+
+/* dashboard */
+
+.dashboard {
+    display: grid;
+    grid-column: 1/2;
+    background-color: lightblue;
+    grid-template-rows: 1.3fr 5fr 7fr;
+}
+
+.dashboard-logo-title {
+    background-color: yellow;
+}
+
+.first-list {
+    background-color: purple;
+}
+
+.second-list {
+    background-color: green;
+}
+
+.dashboard-logo {
+    color: white;
+    background-color: green;
+}
+
+.dashboard-title {
+    background-color: purple;
+}
