@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -13,47 +15,91 @@
     <div class="container">
         <div class="dashboard">
             <div id="dashboard-logo-title" class="symbol-text">
-                <i id="dashboard-logo">$</i>
+                <span id="dashboard-logo" class="material-symbols-outlined">
+                    dashboard
+                </span>
                 <div id="dashboard-title">Dashboard</div>
             </div>
             <div id="first-list" class="list">
                 <div class="symbol-text">
-                    <i>$</i>
-                    <div>Home</div>
+                    <a href=""><span class="material-symbols-outlined">
+                            home
+                        </span></a>
+                    <a href="">
+                        <div>Home</div>
+                    </a>
                 </div>
                 <div class="symbol-text">
-                    <i>$</i>
-                    <div>Profile</div>
+                    <a href=""><span class="material-symbols-outlined">
+                            account_circle
+                        </span></a>
+                    <a href="">
+                        <div>Profile</div>
+                    </a>
                 </div>
                 <div class="symbol-text">
-                    <i>$</i>
-                    <div>Messages</div>
+                    <a href=""><span class="material-symbols-outlined">
+                            chat
+                        </span></a>
+                    <a href="">
+                        <div>Messages</div>
+                    </a>
                 </div>
                 <div class="symbol-text">
-                    <i>$</i>
-                    <div>History</div>
+                    <a href=""><span class="material-symbols-outlined">
+                            history
+                        </span></a>
+                    <a href="">
+                        <div>History</div>
+                    </a>
+
                 </div>
                 <div class="symbol-text">
-                    <i>$</i>
-                    <div>Tasks</div>
+                    <a href=""><span class="material-symbols-outlined">
+                            task
+                        </span></a>
+                    <a href="">
+                        <div>Tasks</div>
+                    </a>
+
                 </div>
                 <div class="symbol-text">
-                    <i>$</i>
-                    <div>Communities</div>
+                    <a href=""><span class="material-symbols-outlined">
+                            groups
+                        </span></a>
+                    <a href="">
+                        <div>Communities</div>
+                    </a>
+
                 </div>
             </div>
             <div id="second-list" class="list">
                 <div class="symbol-text">
-                    <i>$</i>
-                    <div>Settings</div>
+                    <a href=""><span class="material-symbols-outlined">
+                            settings
+                        </span></a>
+                    <a href="">
+                        <div>Settings</div>
+                    </a>
+
                 </div>
                 <div class="symbol-text">
-                    <i>$</i>
-                    <div>Support</div>
+                    <a href=""><span class="material-symbols-outlined">
+                            help
+                        </span></a>
+                    <a href="">
+                        <div>Support</div>
+                    </a>
+
                 </div>
                 <div class="symbol-text">
-                    <i>$</i>
-                    <div>Privacy</div>
+                    <a href=""><span class="material-symbols-outlined">
+                            verified_user
+                        </span></a>
+                    <a href="">
+                        <div>Privacy</div>
+                    </a>
+
                 </div>
             </div>
         </div>
@@ -61,21 +107,25 @@
             <div class="header">
                 <div class="header-first-row">
                     <div class="search">
-                        <i id="search-symbol">$</i>
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
                         <input type="search">
                     </div>
                     <div class="profile">
-                        <i id="notification-symbol">$</i>
-                        <img id="profile-image" src="/images/astronaut.png" alt="">
+                        <span class="material-symbols-outlined">
+                            notifications
+                        </span>
+                        <img id="profile-image" src="assets/images/astronaut.png" alt="">
                         <p id="profile-name"><b>Morgan Oakley</b></p>
                     </div>
                 </div>
                 <div class="header-second-row">
                     <div class="introduce-profile">
-                        <img id="profile-image" src="/images/astronaut.png" alt="">
+                        <img id="profile-image" src="assets/images/astronaut.png" alt="">
                         <div class="introduce-profile-text">
                             <p>Hi there,</p>
-                            <h3 id="profile-name">Morgan Oakley (@morgan)</h3>
+                            <h2 id="profile-name">Morgan Oakley (@morgan)</h2>
                         </div>
                     </div>
                     <div class="interactive-buttons">
@@ -85,7 +135,206 @@
                     </div>
                 </div>
             </div>
-            <div class="content"></div>
+            <div class="content">
+                <div class="your-projects">
+                    <h3 id="your-projects-title">Your Projects</h3>
+                    <div class="projects">
+                        <div class="project">
+                            <div class="left-gold-border"></div>
+                            <div class="project-content">
+                                <div class="project-information">
+                                    <h3>Super Cool Project</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Beatae laudantium nam numquam, quos libero dolorem deleniti facilis atque,
+                                        fugit possimus tenetur impedit.</p>
+                                </div>
+                                <div class="project-buttons">
+                                    <span class="material-symbols-outlined">
+                                        star
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        visibility
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        share
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <div class="left-gold-border"></div>
+                            <div class="project-content">
+                                <div class="project-information">
+                                    <h3>Less Cool Project</h3>
+                                    <p class="project-description">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                        elit. Quaerat numquam, adipisci minus iusto ut corporis, praesentium dolorum
+                                        beatae culpa magnam laboriosam quod.</p>
+                                </div>
+                                <div class="project-buttons">
+                                    <span class="material-symbols-outlined">
+                                        star
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        visibility
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        share
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <div class="left-gold-border"></div>
+                            <div class="project-content">
+                                <div class="project-information">
+                                    <h3>Impossible App</h3>
+                                    <p class="project-description">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                        elit. Accusantium fuga possimus placeat nostrum incidunt voluptatum consectetur
+                                        laborum adipisci, excepturi iusto obcaecati eaque.</p>
+                                </div>
+                                <div class="project-buttons">
+                                    <span class="material-symbols-outlined">
+                                        star
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        visibility
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        share
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <div class="left-gold-border"></div>
+                            <div class="project-content">
+                                <div class="project-information">
+                                    <h3>Easy Peasy App</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Est autem veniam non temporibus earum voluptatum aliquam, omnis natus
+                                        nobis vitae, minima iure!</p>
+                                </div>
+                                <div class="project-buttons">
+                                    <span class="material-symbols-outlined">
+                                        star
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        visibility
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        share
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <div class="left-gold-border"></div>
+                            <div class="project-content">
+                                <div class="project-information">
+                                    <h3>Add Blocker</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Ex sunt odio ratione repellendus? Rem nobis id doloribus? Dolorem rerum
+                                        repellendus ipsa quod!</p>
+                                </div>
+                                <div class="project-buttons">
+                                    <span class="material-symbols-outlined">
+                                        star
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        visibility
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        share
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <div class="left-gold-border"></div>
+                            <div class="project-content">
+                                <div class="project-information">
+                                    <h3>Money Maker</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Dolores quos excepturi dicta, magnam expedita mollitia impedit at numquam,
+                                        reiciendis assumenda amet? Repellendus?</p>
+                                </div>
+                                <div class="project-buttons">
+                                    <span class="material-symbols-outlined">
+                                        star
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        visibility
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        share
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="announcements-and-trending">
+                    <div class="announcements-container">
+                        <h3 id="announcements-title">Announcements</h3>
+                        <div class="announcements">
+                            <div class="announcement">
+
+                                <div class="announcement-title">Site Maintenance</div>
+                                <div class="announcement-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Excepturi</div>
+                            </div>
+                            <hr>
+                            <div class="announcement">
+                                <div class="announcement-title">Community Share Day</div>
+                                <div class="announcement-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Quae,
+                                    tenetur illum magnam possimus eum
+                                    adipisci.</div>
+                            </div>
+                            <hr>
+                            <div class="announcement">
+                                <div class="announcement-title">Updated Privacy Policy</div>
+                                <div class="announcement-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Deserunt
+                                    accusamus earum nam voluptatem. Ad unde eum, ducimus</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending-container">
+                        <h3 id="trending-title">Trending</h3>
+                        <div class="trending">
+                            <div class="trending-project">
+                                <img src="assets/images/atom.png" alt="">
+                                <div class="trending-information">
+                                    <div class="tag">@tegan</div>
+                                    <div class="project-name">World Peace Builder</div>
+                                </div>
+                            </div>
+                            <div class="trending-project">
+                                <img src="assets/images/astronaut.png" alt="">
+                                <div class="trending-information">
+                                    <div class="tag">@morgan</div>
+                                    <div class="project-name">Super Cool Project</div>
+                                </div>
+                            </div>
+                            <div class="trending-project">
+                                <img src="assets/images/everest.png" alt="">
+                                <div class="trending-information">
+                                    <div class="tag">@kendall</div>
+                                    <div class="project-name">Life Changing App</div>
+                                </div>
+                            </div>
+                            <div class="trending-project">
+                                <img src="assets/images/wolf.png" alt="">
+                                <div class="trending-information">
+                                    <div class="tag">@alex</div>
+                                    <div class="project-name">No Traffic Maker</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
